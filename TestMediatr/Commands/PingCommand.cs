@@ -12,8 +12,9 @@ namespace TestMediatr.Commands
         
         
         // Todo: this registers the decorators in the di for creation of the command handler
-        // [Database]
-        // [Audit]
+        [Database]
+        [Audit]
+        // [Pong]
         internal sealed class PingCommandHandler : IRequestHandler<PingCommand, string>
         {
             public Task<string> Handle(PingCommand request, CancellationToken cancellationToken)
@@ -22,11 +23,11 @@ namespace TestMediatr.Commands
             }
         }
         
-        internal sealed class ExtenderDecorator : IRequestHandler<PingCommand,string>
+        internal sealed class PongDecorator : IRequestHandler<PingCommand,string>
         {
             private readonly IRequestHandler<PingCommand, string> _handler;
 
-            public ExtenderDecorator( IRequestHandler<PingCommand,string> handler)
+            public PongDecorator( IRequestHandler<PingCommand,string> handler)
             {
                 _handler = handler;
             }
@@ -75,7 +76,7 @@ namespace TestMediatr.Commands
     }
  
     [AttributeUsage(AttributeTargets.Class, Inherited = false, AllowMultiple = true)]
-    internal sealed class ExtendPongAttribute : Attribute
+    internal sealed class PongAttribute : Attribute
     {
     }
     

@@ -113,8 +113,8 @@ namespace TestMediatr
             if (type == typeof(DatabaseAttribute))
                 return typeof(PingCommand.DatabaseDecorator<,>);
             
-            if (type == typeof(ExtendPongAttribute))
-                return typeof(PingCommand.ExtenderDecorator);
+            if (type == typeof(PongAttribute))
+                return typeof(PingCommand.PongDecorator);
             
             throw  new ArgumentException(attribute.ToString());
         }

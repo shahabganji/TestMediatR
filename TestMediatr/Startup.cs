@@ -23,22 +23,32 @@ namespace TestMediatr
             services.AddMvc();
 
             var assembly = typeof(Startup).Assembly;
-            
+
             services.AddMediatR(assembly);
-            services.AddHandlers();
-            
+            // services.AddHandlers();
         }
 
         public void ConfigureContainer(IInjectionScope injection)
         {
             injection.Configure(c =>
             {
-                c.ExportDecorator<IRequestHandler<PingCommand, string>>(
-                    request => new PingCommand.AuditDecorator<PingCommand, string>(request));
-                c.ExportDecorator<IRequestHandler<PingCommand, string>>(
-                    request => new PingCommand.DatabaseDecorator<PingCommand, string>(request));
-                c.ExportDecorator<IRequestHandler<PingCommand, string>>(
-                    request => new PingCommand.ExtenderDecorator(request));
+                
+                c.ExportDecorator(typeof(PingCommand.DatabaseDecorator<,>))
+                    .When.MeetsCondition((strategy, staticContext) => strategy.ActivationType.GetCustomAttributes(false)
+                        .Any(a => a is DatabaseAttribute))
+                    .As(typeof(IRequestHandler<,>));
+                
+                c.ExportDecorator(typeof(PingCommand.AuditDecorator<,>))
+                    .When.MeetsCondition((strategy, staticContext) => strategy.ActivationType.GetCustomAttributes(false)
+                        .Any(a => a is AuditAttribute))
+                    .As(typeof(IRequestHandler<,>));
+                
+                c.ExportDecorator(typeof(PingCommand.PongDecorator))
+                    .When.MeetsCondition(
+                        (strategy, staticContext)
+                            => strategy.ActivationType.GetCustomAttributes(false)
+                                .Any(a => a is PongAttribute))
+                    .As(typeof(IRequestHandler<,>));
             });
         }
 
