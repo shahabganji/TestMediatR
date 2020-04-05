@@ -24,7 +24,7 @@
     ".NETCoreApp,Version=v3.1": {
       "TestMediatr/1.0.0": {
         "dependencies": {
-          "Grace": "7.1.0",
+          "Grace": "7.1.1-RC792",
           "Grace.AspNetCore.Hosting": "7.0.1",
           "MediatR": "8.0.1",
           "MediatR.Extensions.Microsoft.DependencyInjection": "8.0.0",
@@ -318,11 +318,11 @@
           "TestMediatr.dll": {}
         }
       },
-      "Grace/7.1.0": {
+      "Grace/7.1.1-RC792": {
         "runtime": {
           "lib/netstandard2.0/Grace.dll": {
-            "assemblyVersion": "7.1.0.0",
-            "fileVersion": "7.1.0.0"
+            "assemblyVersion": "7.1.1.0",
+            "fileVersion": "7.1.1.0"
           }
         },
         "compile": {
@@ -346,7 +346,7 @@
       },
       "Grace.DependencyInjection.Extensions/7.0.1": {
         "dependencies": {
-          "Grace": "7.1.0",
+          "Grace": "7.1.1-RC792",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "2.1.1"
         },
         "runtime": {
@@ -2138,12 +2138,12 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Grace/7.1.0": {
+    "Grace/7.1.1-RC792": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-d4lagsuUWyIbkDusOeADQtAL76VBtMPJ2NPoU6Qmyt2VZF3hTTdhvbtYFh/y3/WmdMP/NGRYgnYwSMqZpMZQLg==",
-      "path": "grace/7.1.0",
-      "hashPath": "grace.7.1.0.nupkg.sha512"
+      "sha512": "sha512-AraGvm5CFm5uHNdlNrYi3kwqfC9NWio8/zzUhpSAA8sFrlg5Oh1IOMJT5/1yWAj88DowrgAyn7vMCfViiakpTg==",
+      "path": "grace/7.1.1-rc792",
+      "hashPath": "grace.7.1.1-rc792.nupkg.sha512"
     },
     "Grace.AspNetCore.Hosting/7.0.1": {
       "type": "package",

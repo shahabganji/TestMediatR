@@ -26,15 +26,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8d91f944-0200-4799-baf3-b136c8420975" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.TestMediatr/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TestMediatr/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TestMediatr/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TestMediatr/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestMediatr/Commands/PingCommand.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TestMediatr/Commands/PingCommand.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestMediatr/HandleRegistration.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TestMediatr/HandleRegistration.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestMediatr/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TestMediatr/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestMediatr/TestMediatr.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/TestMediatr/TestMediatr.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestMediatr/bin/Debug/netcoreapp3.1/Grace.dll" beforeDir="false" afterPath="$PROJECT_DIR$/TestMediatr/bin/Debug/netcoreapp3.1/Grace.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestMediatr/bin/Debug/netcoreapp3.1/TestMediatr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestMediatr/bin/Debug/netcoreapp3.1/TestMediatr.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/TestMediatr/bin/Debug/netcoreapp3.1/TestMediatr.deps.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestMediatr/bin/Debug/netcoreapp3.1/TestMediatr.dll" beforeDir="false" afterPath="$PROJECT_DIR$/TestMediatr/bin/Debug/netcoreapp3.1/TestMediatr.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestMediatr/bin/Debug/netcoreapp3.1/TestMediatr.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/TestMediatr/bin/Debug/netcoreapp3.1/TestMediatr.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestMediatr/obj/Debug/netcoreapp3.1/TestMediatr.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/TestMediatr/obj/Debug/netcoreapp3.1/TestMediatr.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestMediatr/obj/Debug/netcoreapp3.1/TestMediatr.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/TestMediatr/obj/Debug/netcoreapp3.1/TestMediatr.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestMediatr/obj/Debug/netcoreapp3.1/TestMediatr.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/TestMediatr/obj/Debug/netcoreapp3.1/TestMediatr.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestMediatr/obj/Debug/netcoreapp3.1/TestMediatr.dll" beforeDir="false" afterPath="$PROJECT_DIR$/TestMediatr/obj/Debug/netcoreapp3.1/TestMediatr.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestMediatr/obj/Debug/netcoreapp3.1/TestMediatr.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/TestMediatr/obj/Debug/netcoreapp3.1/TestMediatr.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestMediatr/obj/TestMediatr.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/TestMediatr/obj/TestMediatr.csproj.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestMediatr/obj/TestMediatr.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/TestMediatr/obj/TestMediatr.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestMediatr/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/TestMediatr/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestMediatr/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/TestMediatr/obj/project.packagespec.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,8 +76,8 @@
         <option value="$PROJECT_DIR$/TestMediatr/Properties/launchSettings.json" />
         <option value="$PROJECT_DIR$/TestMediatr/Program.cs" />
         <option value="$PROJECT_DIR$/TestMediatr/HandleRegistration.cs" />
-        <option value="$PROJECT_DIR$/TestMediatr/Startup.cs" />
         <option value="$PROJECT_DIR$/TestMediatr/Commands/PingCommand.cs" />
+        <option value="$PROJECT_DIR$/TestMediatr/Startup.cs" />
       </list>
     </option>
   </component>
@@ -82,11 +91,13 @@
     <option name="showVisibilityIcons" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="Rider.SolutionExplorerActivator" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="TWShift.3" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="ignore_missing_gitignore" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="restartRequiresConfirmation" value="false" />
@@ -137,7 +148,8 @@
       <workItem from="1585062878614" duration="5727000" />
       <workItem from="1585080404986" duration="189000" />
       <workItem from="1585488005257" duration="1029000" />
-      <workItem from="1585494737757" duration="1631000" />
+      <workItem from="1585494737757" duration="1846000" />
+      <workItem from="1586082997776" duration="957000" />
     </task>
     <servers />
   </component>
@@ -155,86 +167,86 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="481" height="466" key="DebuggerActiveHint/0.0.1440.900@0.0.1440.900" timestamp="1585079266973" />
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1585496749949">
+    <state width="1398" height="403" key="GridCell.Tab.0.bottom" timestamp="1586083842568">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1585496749949" />
-    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1585496749948">
+    <state width="1398" height="403" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1586083842568" />
+    <state width="1398" height="403" key="GridCell.Tab.0.center" timestamp="1586083842566">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1585496749948" />
-    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1585496749947">
+    <state width="1398" height="403" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1586083842566" />
+    <state width="1398" height="403" key="GridCell.Tab.0.left" timestamp="1586083842565">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1585496749947" />
-    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1585496749948">
+    <state width="1398" height="403" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1586083842565" />
+    <state width="1398" height="403" key="GridCell.Tab.0.right" timestamp="1586083842567">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1585496749948" />
-    <state width="1398" height="403" key="GridCell.Tab.1.bottom" timestamp="1585495553561">
+    <state width="1398" height="403" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1586083842567" />
+    <state width="1398" height="403" key="GridCell.Tab.1.bottom" timestamp="1586083842571">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="403" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1585495553561" />
-    <state width="1398" height="403" key="GridCell.Tab.1.center" timestamp="1585495553560">
+    <state width="1398" height="403" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1586083842571" />
+    <state width="1398" height="403" key="GridCell.Tab.1.center" timestamp="1586083842569">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="403" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1585495553560" />
-    <state width="1398" height="403" key="GridCell.Tab.1.left" timestamp="1585495553559">
+    <state width="1398" height="403" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1586083842569" />
+    <state width="1398" height="403" key="GridCell.Tab.1.left" timestamp="1586083842568">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="403" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1585495553559" />
-    <state width="1398" height="403" key="GridCell.Tab.1.right" timestamp="1585495553560">
+    <state width="1398" height="403" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1586083842568" />
+    <state width="1398" height="403" key="GridCell.Tab.1.right" timestamp="1586083842570">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="403" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1585495553560" />
-    <state width="1398" height="403" key="GridCell.Tab.2.bottom" timestamp="1585495553563">
+    <state width="1398" height="403" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1586083842570" />
+    <state width="1398" height="403" key="GridCell.Tab.2.bottom" timestamp="1586083842573">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="403" key="GridCell.Tab.2.bottom/0.0.1440.900@0.0.1440.900" timestamp="1585495553563" />
-    <state width="1398" height="403" key="GridCell.Tab.2.center" timestamp="1585495553562">
+    <state width="1398" height="403" key="GridCell.Tab.2.bottom/0.0.1440.900@0.0.1440.900" timestamp="1586083842573" />
+    <state width="1398" height="403" key="GridCell.Tab.2.center" timestamp="1586083842572">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="403" key="GridCell.Tab.2.center/0.0.1440.900@0.0.1440.900" timestamp="1585495553562" />
-    <state width="1398" height="403" key="GridCell.Tab.2.left" timestamp="1585495553561">
+    <state width="1398" height="403" key="GridCell.Tab.2.center/0.0.1440.900@0.0.1440.900" timestamp="1586083842572" />
+    <state width="1398" height="403" key="GridCell.Tab.2.left" timestamp="1586083842572">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="403" key="GridCell.Tab.2.left/0.0.1440.900@0.0.1440.900" timestamp="1585495553561" />
-    <state width="1398" height="403" key="GridCell.Tab.2.right" timestamp="1585495553562">
+    <state width="1398" height="403" key="GridCell.Tab.2.left/0.0.1440.900@0.0.1440.900" timestamp="1586083842572" />
+    <state width="1398" height="403" key="GridCell.Tab.2.right" timestamp="1586083842573">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="403" key="GridCell.Tab.2.right/0.0.1440.900@0.0.1440.900" timestamp="1585495553562" />
-    <state width="1398" height="403" key="GridCell.Tab.3.bottom" timestamp="1585495553564">
+    <state width="1398" height="403" key="GridCell.Tab.2.right/0.0.1440.900@0.0.1440.900" timestamp="1586083842573" />
+    <state width="1398" height="403" key="GridCell.Tab.3.bottom" timestamp="1586083842576">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="403" key="GridCell.Tab.3.bottom/0.0.1440.900@0.0.1440.900" timestamp="1585495553564" />
-    <state width="1398" height="403" key="GridCell.Tab.3.center" timestamp="1585495553564">
+    <state width="1398" height="403" key="GridCell.Tab.3.bottom/0.0.1440.900@0.0.1440.900" timestamp="1586083842576" />
+    <state width="1398" height="403" key="GridCell.Tab.3.center" timestamp="1586083842575">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="403" key="GridCell.Tab.3.center/0.0.1440.900@0.0.1440.900" timestamp="1585495553564" />
-    <state width="1398" height="403" key="GridCell.Tab.3.left" timestamp="1585495553563">
+    <state width="1398" height="403" key="GridCell.Tab.3.center/0.0.1440.900@0.0.1440.900" timestamp="1586083842575" />
+    <state width="1398" height="403" key="GridCell.Tab.3.left" timestamp="1586083842574">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="403" key="GridCell.Tab.3.left/0.0.1440.900@0.0.1440.900" timestamp="1585495553563" />
-    <state width="1398" height="403" key="GridCell.Tab.3.right" timestamp="1585495553564">
+    <state width="1398" height="403" key="GridCell.Tab.3.left/0.0.1440.900@0.0.1440.900" timestamp="1586083842574" />
+    <state width="1398" height="403" key="GridCell.Tab.3.right" timestamp="1586083842575">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="403" key="GridCell.Tab.3.right/0.0.1440.900@0.0.1440.900" timestamp="1585495553564" />
-    <state width="1398" height="403" key="GridCell.Tab.4.bottom" timestamp="1585495553566">
+    <state width="1398" height="403" key="GridCell.Tab.3.right/0.0.1440.900@0.0.1440.900" timestamp="1586083842575" />
+    <state width="1398" height="403" key="GridCell.Tab.4.bottom" timestamp="1586083842578">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="403" key="GridCell.Tab.4.bottom/0.0.1440.900@0.0.1440.900" timestamp="1585495553566" />
-    <state width="1398" height="403" key="GridCell.Tab.4.center" timestamp="1585495553565">
+    <state width="1398" height="403" key="GridCell.Tab.4.bottom/0.0.1440.900@0.0.1440.900" timestamp="1586083842578" />
+    <state width="1398" height="403" key="GridCell.Tab.4.center" timestamp="1586083842577">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="403" key="GridCell.Tab.4.center/0.0.1440.900@0.0.1440.900" timestamp="1585495553565" />
-    <state width="1398" height="403" key="GridCell.Tab.4.left" timestamp="1585495553565">
+    <state width="1398" height="403" key="GridCell.Tab.4.center/0.0.1440.900@0.0.1440.900" timestamp="1586083842577" />
+    <state width="1398" height="403" key="GridCell.Tab.4.left" timestamp="1586083842576">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="403" key="GridCell.Tab.4.left/0.0.1440.900@0.0.1440.900" timestamp="1585495553565" />
-    <state width="1398" height="403" key="GridCell.Tab.4.right" timestamp="1585495553566">
+    <state width="1398" height="403" key="GridCell.Tab.4.left/0.0.1440.900@0.0.1440.900" timestamp="1586083842576" />
+    <state width="1398" height="403" key="GridCell.Tab.4.right" timestamp="1586083842577">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="403" key="GridCell.Tab.4.right/0.0.1440.900@0.0.1440.900" timestamp="1585495553566" />
+    <state width="1398" height="403" key="GridCell.Tab.4.right/0.0.1440.900@0.0.1440.900" timestamp="1586083842577" />
     <state x="221" y="89" key="SettingsEditor" timestamp="1585489642014">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -249,16 +261,16 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/TestMediatr/Commands/PingCommand.cs</url>
-          <line>54</line>
-          <properties documentPath="$PROJECT_DIR$/TestMediatr/Commands/PingCommand.cs" initialLine="52">
+          <line>70</line>
+          <properties documentPath="$PROJECT_DIR$/TestMediatr/Commands/PingCommand.cs" initialLine="70">
             <startOffsets>
-              <option value="1842" />
+              <option value="2491" />
             </startOffsets>
             <endOffsets>
-              <option value="1898" />
+              <option value="2544" />
             </endOffsets>
           </properties>
-          <option name="timeStamp" value="6" />
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

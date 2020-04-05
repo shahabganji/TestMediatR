@@ -36,19 +36,28 @@ namespace TestMediatr
                 c.ExportDecorator(typeof(PingCommand.DatabaseDecorator<,>))
                     .When.MeetsCondition((strategy, staticContext) => strategy.ActivationType.GetCustomAttributes(false)
                         .Any(a => a is DatabaseAttribute))
-                    .As(typeof(IRequestHandler<,>));
+                    .As(typeof(IRequestHandler<,>))
+                    .Priority(10);
                 
                 c.ExportDecorator(typeof(PingCommand.AuditDecorator<,>))
                     .When.MeetsCondition((strategy, staticContext) => strategy.ActivationType.GetCustomAttributes(false)
                         .Any(a => a is AuditAttribute))
-                    .As(typeof(IRequestHandler<,>));
-                
+                    .As(typeof(IRequestHandler<,>))
+                    .Priority(8);;
+
                 c.ExportDecorator(typeof(PingCommand.PongDecorator))
                     .When.MeetsCondition(
                         (strategy, staticContext)
                             => strategy.ActivationType.GetCustomAttributes(false)
-                                .Any(a => a is PongAttribute))
-                    .As(typeof(IRequestHandler<,>));
+                        .Any(a => a is PongAttribute))
+                    .As(typeof(IRequestHandler<,>))
+                    .Priority(2);
+                // c.ExportDecorator(typeof(PingCommand.PongDecorator))
+                //     .When.MeetsCondition(
+                //         (strategy, staticContext)
+                //             => strategy.ActivationType.GetCustomAttributes(false)
+                //                 .Any(a => a is PongAttribute))
+                //     .As(typeof(IRequestHandler<,>));
             });
         }
 

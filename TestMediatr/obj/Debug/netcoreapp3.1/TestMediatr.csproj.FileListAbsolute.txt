@@ -1,7 +1,6 @@
 /Users/shahab/dev/playground/TestMediatr/TestMediatr/bin/Debug/netcoreapp3.1/appsettings.Development.json
 /Users/shahab/dev/playground/TestMediatr/TestMediatr/bin/Debug/netcoreapp3.1/appsettings.json
 /Users/shahab/dev/playground/TestMediatr/TestMediatr/bin/Debug/netcoreapp3.1/Properties/launchSettings.json
-/Users/shahab/dev/playground/TestMediatr/TestMediatr/bin/Debug/netcoreapp3.1/TestMediatr
 /Users/shahab/dev/playground/TestMediatr/TestMediatr/bin/Debug/netcoreapp3.1/TestMediatr.deps.json
 /Users/shahab/dev/playground/TestMediatr/TestMediatr/bin/Debug/netcoreapp3.1/TestMediatr.runtimeconfig.json
 /Users/shahab/dev/playground/TestMediatr/TestMediatr/bin/Debug/netcoreapp3.1/TestMediatr.runtimeconfig.dev.json
@@ -22,3 +21,5 @@
 /Users/shahab/dev/playground/TestMediatr/TestMediatr/bin/Debug/netcoreapp3.1/Grace.dll
 /Users/shahab/dev/playground/TestMediatr/TestMediatr/bin/Debug/netcoreapp3.1/Grace.AspNetCore.Hosting.dll
 /Users/shahab/dev/playground/TestMediatr/TestMediatr/bin/Debug/netcoreapp3.1/Grace.DependencyInjection.Extensions.dll
+/Users/shahab/dev/playground/TestMediatr/TestMediatr/obj/Debug/netcoreapp3.1/TestMediatr.csproj.CoreCompileInputs.cache
+/Users/shahab/dev/playground/TestMediatr/TestMediatr/obj/Debug/netcoreapp3.1/TestMediatr.genruntimeconfig.cache

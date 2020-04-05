@@ -14,7 +14,7 @@ namespace TestMediatr.Commands
         // Todo: this registers the decorators in the di for creation of the command handler
         [Database]
         [Audit]
-        // [Pong]
+        [Pong]
         internal sealed class PingCommandHandler : IRequestHandler<PingCommand, string>
         {
             public Task<string> Handle(PingCommand request, CancellationToken cancellationToken)

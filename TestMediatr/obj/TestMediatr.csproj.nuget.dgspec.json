@@ -42,7 +42,7 @@
           "dependencies": {
             "Grace": {
               "target": "Package",
-              "version": "[7.1.0, )"
+              "version": "[7.1.1-RC792, )"
             },
             "Grace.AspNetCore.Hosting": {
               "target": "Package",
@@ -75,7 +75,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.101/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.201/RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -5,7 +5,7 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <PackageReference Include="Grace" Version="7.1.0" />
+      <PackageReference Include="Grace" Version="7.1.1-RC792" />
       <PackageReference Include="Grace.AspNetCore.Hosting" Version="7.0.1" />
       <PackageReference Include="MediatR" Version="8.0.1" />
       <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="8.0.0" />
